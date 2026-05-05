@@ -390,31 +390,6 @@ Both PostgreSQL services use `@GeneratedValue(strategy = GenerationType.UUID)` i
 
 ---
 
-## 🔮 Potential Improvements
-
-- [ ] Add JWT authentication at the API Gateway layer
-- [ ] Implement Saga pattern for distributed transaction management
-- [ ] Add Resilience4j Circuit Breaker with retry and rate limiting
-- [ ] Introduce an API versioning strategy (`/api/v1/`)
-- [ ] Add distributed tracing with Zipkin / Micrometer
-- [ ] Write integration tests with Testcontainers
-- [ ] Add Swagger / OpenAPI documentation per service
-- [ ] Kubernetes deployment manifests (Helm charts)
-- [ ] CI/CD pipeline with GitHub Actions
-
----
-
-## 🤝 Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
 
 <div align="center">
 Built with Spring Boot 3.2 · Java 21 · Apache Kafka · Docker
