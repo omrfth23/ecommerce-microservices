@@ -1,0 +1,6 @@
+package com.ecommerce.model;
+
+public enum OrderStatus {
+    PENDING, CONFIRMED, PAYMENT_PROCESSING,
+    PAYMENT_COMPLETED, PAYMENT_FAILED, SHIPPED, DELIVERED, CANCELLED
+}
